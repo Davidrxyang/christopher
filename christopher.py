@@ -21,7 +21,7 @@ class ChatGPT:
             return str(e)
 
 # Usage Example
-api_key = "YOUR_KEY_HERE"
+api_key = "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"
 chatgpt = ChatGPT(api_key)
 
 while True:
