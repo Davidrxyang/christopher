@@ -1,2 +1,2 @@
 # christopher
-christopher is a gpt based chatbot, aka FRIEND
+christopher is a gpt based chatbot, he is our friend
