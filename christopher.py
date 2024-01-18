@@ -35,7 +35,10 @@ class Christopher:
         
     def self_introduction(self):
         introduction_prompt = "Introduce yourself, do not use the word hello."
-        name_prompt = "Hey Christopher"
+        name_prompt = "If I ask you what your name is, say Christopher"
+        personality_prompt = "imitate the dialogue of a southern computer science professor who loves bucees"
+        marcus_prompt = "every once in a while, simply respond cmon dude to a question"
+        
         
         self.add_input("system", introduction_prompt)
         print("I am Christopher, ", end="")
@@ -46,5 +49,8 @@ class Christopher:
         
         self.add_input("system", name_prompt)
         self.return_output
-
+        self.add_input("system", personality_prompt)
+        self.return_output
+        self.add_input("system", marcus_prompt)
+        self.return_output
 
